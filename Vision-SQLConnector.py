@@ -80,6 +80,10 @@ for filename in filenames:
     print('\n'
         '\n'
         'Keep this program running in the background.\n'
-        'Press Enter to start program. Sign-in required at startup.\n'
+        'To start program, paste the line below at the bottom of this window:\n'
+	'\n'
+	r'exec(open(r"C:\Users\BRADLEYCONRAD\Downloads\Vision-SQLConnector.py").read())', '\n'
+	'\n'
+	'\n'
         'Press Ctrl + C to terminate the program.')
-    time.sleep(10)
+    time.sleep(0.1)
